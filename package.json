@@ -1,0 +1,28 @@
+{
+  "name": "next-typescript-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^5.1.0",
+    "@web3sdks/auth": "^2.0.11",
+    "@web3sdks/react": "^0.1.0",
+    "@web3sdks/sdk": "^1.0.0",
+    "ethers": "^5.6.8",
+    "next": "^13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "@types/react": "^18.0.26",
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13",
+    "typescript": "^4.9.2"
+  }
+}
